@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style> 
+        .x{
+            background-color: chartreuse;
+            border-radius: 5px;
+            float: left;
+           height: 200px;
+           width: 75%;
+           padding: 5px;
+
+        }
+        .y{ 
+            background: #e272ec;
+            border-radius: 5px;
+            margin-left: 20%;
+            float: inline-end;
+            height: 400px;
+            width: 1000px;
+            position: fixed;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+            <div class="x">
+                <a href="bornohin.html" target="bornohin"><button>iframe</button></a><br>
+                <a href="form.html" target="bornohin"><button>Form</button></a><br>
+                <a href="table.html" target="bornohin"><button>Table</button></a>
+            </div>
+        <div class="y">
+            <iframe src="bornohin.html" frameborder="0" name="bornohin"></iframe>
+        </div>
+</body>
+</html>

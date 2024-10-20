@@ -1,0 +1,14 @@
+table,div th ,tr, td{
+    border: 2px solid;
+    width: 500px;
+    padding-inline: ;
+    height: 50px;
+    background-color: rgb(248, 232, 245);
+    border-collapse: collapse;
+    border-radius: 20%;
+    shape-outside: circle(45px);
+}
+.x{
+    text-align: justify;
+    text-shadow: 50px;
+}
